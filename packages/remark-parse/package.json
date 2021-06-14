@@ -18,12 +18,8 @@
   ],
   "types": "types/index.d.ts",
   "homepage": "https://remark.js.org",
-  "repository": "https://github.com/remarkjs/remark/tree/main/packages/remark-parse",
-  "bugs": "https://github.com/remarkjs/remark/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/unified"
-  },
+  "repository": "https://github.com/brodybits/remark/tree/main/packages/remark-parse",
+  "bugs": "https://github.com/brodybits/remark/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
