@@ -1,6 +1,6 @@
 {
   "name": "@brodybits/remark-parse",
-  "version": "5.0.1-dev",
+  "version": "5.0.1",
   "description": "Markdown parser for remark",
   "license": "MIT",
   "keywords": [
