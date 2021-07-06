@@ -1,3 +1,4 @@
+.*.swp
 .DS_Store
 .nyc_output
 *.log
@@ -5,4 +6,5 @@ node_modules
 coverage
 /remark.js
 /remark.min.js
+package-lock.json
 yarn.lock
