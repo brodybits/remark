@@ -1,5 +1,8 @@
-# remark-parse
+# @brodybits/remark-parse version 8
 
+with `trim`@1.x update in dependencies
+
+<!-- --
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
@@ -7,11 +10,14 @@
 [![Sponsors][sponsors-badge]][collective]
 [![Backers][backers-badge]][collective]
 [![Chat][chat-badge]][chat]
+-- -->
 
 [Parser][] for [**unified**][unified].
 Parses Markdown to [**mdast**][mdast] syntax trees.
 Used in the [**remark** processor][remark] but can be used on its own as well.
 Can be [extended][extend] to change how Markdown is parsed.
+
+This version is *tested* with Node.js back to version `6.0.0` & npm version back to `3.10.7`.
 
 ## Sponsors
 
@@ -63,7 +69,7 @@ Can be [extended][extend] to change how Markdown is parsed.
 [npm][]:
 
 ```sh
-npm install remark-parse
+npm install @brodybits/remark-parse
 ```
 
 ## Use
@@ -71,7 +77,7 @@ npm install remark-parse
 ```js
 var unified = require('unified')
 var createStream = require('unified-stream')
-var markdown = require('remark-parse')
+var markdown = require('@brodybits/remark-parse')
 var remark2rehype = require('remark-rehype')
 var html = require('rehype-stringify')
 
